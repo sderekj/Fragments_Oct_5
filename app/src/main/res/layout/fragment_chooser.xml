@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/meme1_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/meme1"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/meme2_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/meme2"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/meme3_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/meme3"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/meme4_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/meme4"
+        android:onClick="onClick"/>
+
+</LinearLayout>
